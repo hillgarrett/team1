@@ -47,6 +47,10 @@ p {
   padding:2rem;
 }
 
+.main {
+}
+
+
 .navbar {
   height: 80px;
   display: flex;
@@ -205,6 +209,38 @@ p {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+/* main page content */
+
+/* end main page content */
+
+
+/* products content */
+.product-wrapper {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-info-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-info-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.cash-amount {
+  color: red;
+}
+/* end products content */
+
+
 
 /* Cart Content */
 
