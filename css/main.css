@@ -14,7 +14,8 @@
   --clr-primary: #DB5461;
   --clr-dark: #333;
   --clr-neutral: #686963;
-  --clr-light: #EEE;
+  --clr-light: #00A8DDE5;
+
   --def-font: 'Poppins', sans-serif;
   --alt-font: 'Karantina', cursive;
 }
@@ -80,7 +81,7 @@ p {
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -145,6 +146,7 @@ p {
   }
 
   #navbar-logo {
+    font-size: 1.5rem;
     padding-left: 25px;
   }
 
@@ -233,57 +235,6 @@ section {
   transform: translateX(100%);
 }
 
-/* .img {
-  width: 95%;
-  max-width: 550px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 6px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-}
-
-section,
-header {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #fdfbfb;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  overflow: hidden;
-}
-
-.section-2,
-header {
-  background: #ebedee;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #cfd4dd 100%);
-}
-
-.content {
-  display: flex;
-}
-
-.content > div { 
-  width: 50%;
-}
-
-.hidden-left {
-  opacity: 0;
-  transform: translateX(-100%);
-}
-
-.hidden-right {
-  opacity: 0;
-  transform: translateX(100%);
-}
-
-.left-column {
-  transition: all 1.5s ease-in-out;
-}
-.right-column {
-  transition: all 1.5s ease-in-out;
-} */
-
 /* Footer CSS */
 .main-footer {
   padding: 2rem 0;
@@ -369,37 +320,4 @@ h2 {
  font-family: 'Karantina', cursive;
  letter-spacing: .125rem;
 	text-transform: uppercase;
-}
-
-input,
-label {
-	display:block;
-	width:100%;
-}
-
-label {
-		padding:.5rem 0;
-
-}
-
-input {
-	outline:none;
-	border: 1px solid #444;
-	border-radius:5px;
-	padding: 10px 15px;
-   margin-bottom: 5px;
-}
-
-button {
- width:100px;
- margin:1rem 0;
- padding:.5rem;
- font-size:.85rem;
- border:1px solid #444;
- color:#333;
- border-radius:5px;
-}
-
-button:hover {
-	cursor: pointer;
 }
